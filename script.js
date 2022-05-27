@@ -5,4 +5,6 @@ let result = 1;
 for (let i = 0; i < massiveNum.length; ++i) {
     result *= massiveNum[i];
 }
-//console.log(result);
+console.log(result);
+let degree = result ** 3;
+console.log(degree);
